@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proiect Final</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo"><a href="#">Cătălin Alexandru</a></div>
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Acasă</a></li>
+          <li><a href="#about" class="menu-btn">Despre mine</a></li>
+          <li><a href="#photos" class="menu-btn">Poze</a></li>
+          <li><a href="#contact" class="menu-btn">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1">Salut, numele meu este</div>
+          <div class="text-2">Cătălin Alexandru</div>
+          <div class="text-3">Și sunt <span class="typing"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+      <div class="max-width">
+        <h2 class="title">Despre mine</h2>
+        <div class="about-content">
+          <div class="column left">
+            <p>
+              Salutare dragi prieteni, eu sunt Alexandru, îmi pare bine să vă
+              cunosc! Toți cei care mă cunosc pot spune că sunt o persoană plină
+              de umor și voie bună, dar și foarte pasionat pentru munca mea.
+              Sper să te conving și pe tine! Abordez ca tip de fotografie
+              comercială, precum și fotografia de sport și auto.
+            </p>
+          </div>
+          <div class="column right">
+            <img src="images/1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- photos section start -->
+    <section class="photos" id="photos">
+      <div class="max-width">
+        <h2 class="title">Poze</h2>
+        <div class="row">
+          <img src="images/3.jpg" />
+          <img src="images/4.jpg" />
+          <img src="images/5.jpg" />
+          <img src="images/6.jpg" />
+          <img src="images/7.jpg" />
+          <img src="images/8.jpg" />
+          <img src="images/9.jpg" />
+          <img src="images/10.jpg" />
+          <img src="images/11.JPG" />
+          <img src="images/12.jpg" />
+          <img src="images/13.jpg" />
+          <img src="images/14.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+      <div class="max-width">
+        <h2 class="title">Contact</h2>
+        <div class="contact-content">
+          <div class="column left">
+            <p>Dacă dorești să afli mai multe informați, lasă-mi un mesaj!</p>
+            <div class="icons">
+              <div class="row">
+                <i class="fas fa-user"></i>
+                <div class="info">
+                  <div class="head">Nume</div>
+                  <div class="sub-title">Cătălin Alexandru</div>
+                </div>
+              </div>
+              <div class="row">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="info">
+                  <div class="head">Adresa</div>
+                  <div class="sub-title">România, Oradea</div>
+                </div>
+              </div>
+              <div class="row">
+                <i class="fas fa-envelope"></i>
+                <div class="info">
+                  <div class="head">Email</div>
+                  <div class="sub-title">1234@gmail.com</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column right">
+            <div class="text">Lasâ-mi mesaj</div>
+            <form action="#">
+              <div class="fields">
+                <div class="field name">
+                  <input type="text" placeholder="Nume" required />
+                </div>
+                <div class="field email">
+                  <input type="email" placeholder="Email" required />
+                </div>
+              </div>
+              <div class="field">
+                <input type="text" placeholder="Subiect" required />
+              </div>
+              <div class="field textarea">
+                <textarea
+                  cols="30"
+                  rows="10"
+                  placeholder="Mesaj.."
+                  required
+                ></textarea>
+              </div>
+              <div class="button">
+                <button type="submit">Trimite mesaj</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
